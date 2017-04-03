@@ -1,0 +1,20 @@
+** Drc report for /Users/richard/Library/Mobile Documents/com~apple~CloudDocs/Work/DAQ/Datalogger_v4/datalogger_v2.kicad_pcb **
+** Created on 2017-02-12 09:31:34 **
+
+** Found 0 DRC errors **
+
+** Found 4 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (145.441 mm,71.764 mm): Pad 45 on B.Cu, Non-copper of U2 net AGND
+    @ (144.154 mm,71.764 mm): Pad 45 on B.Cu, Non-copper of U2
+ErrType(2): Unconnected pads
+    @ (145.441 mm,70.476 mm): Pad 45 on B.Cu, Non-copper of U2 net AGND
+    @ (145.441 mm,71.764 mm): Pad 45 on B.Cu, Non-copper of U2
+ErrType(2): Unconnected pads
+    @ (144.154 mm,69.189 mm): Pad 45 on B.Cu, Non-copper of U2 net AGND
+    @ (144.154 mm,70.476 mm): Pad 45 on B.Cu, Non-copper of U2
+ErrType(2): Unconnected pads
+    @ (151.321 mm,69.916 mm): Pad 2 on B.Cu, Non-copper of FB1 net Net-(D1-Pad2)
+    @ (157.036 mm,69.445 mm): Pad 2 on B.Cu, Non-copper of D2
+
+** End of Report **

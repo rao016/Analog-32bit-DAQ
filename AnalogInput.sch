@@ -1,0 +1,435 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Edison
+LIBS:PCA9306
+LIBS:opa228
+LIBS:ads1263
+LIBS:tps7a4700
+LIBS:TXB0108-PW
+LIBS:DataStorage
+LIBS:ada4528-1
+LIBS:datalogger-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SWITCH_INV SW4
+U 1 1 5825D44D
+P 7100 1900
+F 0 "SW4" H 6900 2050 50  0000 C CNN
+F 1 "SWITCH_INV" H 6950 1750 50  0000 C CNN
+F 2 "Footprints:switch" H 7100 1900 50  0001 C CNN
+F 3 "" H 7100 1900 50  0000 C CNN
+	1    7100 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW9
+U 1 1 5825D4D9
+P 7600 2300
+F 0 "SW9" H 7400 2450 50  0000 C CNN
+F 1 "SWITCH_INV" H 7450 2150 50  0000 C CNN
+F 2 "Footprints:switch" H 7600 2300 50  0001 C CNN
+F 3 "" H 7600 2300 50  0000 C CNN
+	1    7600 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW5
+U 1 1 5825D4FF
+P 7100 2650
+F 0 "SW5" H 6900 2800 50  0000 C CNN
+F 1 "SWITCH_INV" H 6950 2500 50  0000 C CNN
+F 2 "Footprints:switch" H 7100 2650 50  0001 C CNN
+F 3 "" H 7100 2650 50  0000 C CNN
+	1    7100 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW10
+U 1 1 5825D55E
+P 7600 3050
+F 0 "SW10" H 7400 3200 50  0000 C CNN
+F 1 "SWITCH_INV" H 7450 2900 50  0000 C CNN
+F 2 "Footprints:switch" H 7600 3050 50  0001 C CNN
+F 3 "" H 7600 3050 50  0000 C CNN
+	1    7600 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW6
+U 1 1 5825D564
+P 7100 3400
+F 0 "SW6" H 6900 3550 50  0000 C CNN
+F 1 "SWITCH_INV" H 6950 3250 50  0000 C CNN
+F 2 "Footprints:switch" H 7100 3400 50  0001 C CNN
+F 3 "" H 7100 3400 50  0000 C CNN
+	1    7100 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW7
+U 1 1 5825D7A1
+P 7100 4150
+F 0 "SW7" H 6900 4300 50  0000 C CNN
+F 1 "SWITCH_INV" H 6950 4000 50  0000 C CNN
+F 2 "Footprints:switch" H 7100 4150 50  0001 C CNN
+F 3 "" H 7100 4150 50  0000 C CNN
+	1    7100 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW12
+U 1 1 5825D7A7
+P 7600 4550
+F 0 "SW12" H 7400 4700 50  0000 C CNN
+F 1 "SWITCH_INV" H 7450 4400 50  0000 C CNN
+F 2 "Footprints:switch" H 7600 4550 50  0001 C CNN
+F 3 "" H 7600 4550 50  0000 C CNN
+	1    7600 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW8
+U 1 1 5825D7AD
+P 7100 4900
+F 0 "SW8" H 6900 5050 50  0000 C CNN
+F 1 "SWITCH_INV" H 6950 4750 50  0000 C CNN
+F 2 "Footprints:switch" H 7100 4900 50  0001 C CNN
+F 3 "" H 7100 4900 50  0000 C CNN
+	1    7100 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW13
+U 1 1 5825D96B
+P 7600 5300
+F 0 "SW13" H 7400 5450 50  0000 C CNN
+F 1 "SWITCH_INV" H 7450 5150 50  0000 C CNN
+F 2 "Footprints:switch" H 7600 5300 50  0001 C CNN
+F 3 "" H 7600 5300 50  0000 C CNN
+	1    7600 5300
+	-1   0    0    1   
+$EndComp
+Text HLabel 7600 1900 2    60   Input ~ 0
+AIN0
+Text HLabel 8100 2300 2    60   Input ~ 0
+AIN1
+Text HLabel 7600 2650 2    60   Input ~ 0
+AIN2
+Text HLabel 8100 3050 2    60   Input ~ 0
+AIN3
+Text HLabel 7600 3400 2    60   Input ~ 0
+AIN4
+Text HLabel 8100 3800 2    60   Input ~ 0
+AIN5
+Text HLabel 7600 4150 2    60   Input ~ 0
+AIN6
+Text HLabel 8100 4550 2    60   Input ~ 0
+AIN7
+Text HLabel 7600 4900 2    60   Input ~ 0
+AIN8
+Text HLabel 8100 5300 2    60   Input ~ 0
+AIN9
+Text GLabel 6600 2000 0    60   Input ~ 0
+AREF
+Text GLabel 7100 2400 0    60   Input ~ 0
+AREF
+Text GLabel 6600 2750 0    60   Input ~ 0
+AREF
+Text GLabel 7100 3150 0    60   Input ~ 0
+AREF
+Text GLabel 6600 3500 0    60   Input ~ 0
+AREF
+Text GLabel 7100 3900 0    60   Input ~ 0
+AREF
+Text GLabel 6600 4250 0    60   Input ~ 0
+AREF
+Text GLabel 7100 4650 0    60   Input ~ 0
+AREF
+Text GLabel 6600 5000 0    60   Input ~ 0
+AREF
+Text GLabel 7100 5400 0    60   Input ~ 0
+AREF
+$Comp
+L CONN_01X10 P6
+U 1 1 5825E37C
+P 3500 3550
+F 0 "P6" H 3500 4100 50  0000 C CNN
+F 1 "CONN_01X10" V 3600 3550 50  0000 C CNN
+F 2 "Footprints:10pinConn" H 3500 3550 50  0001 C CNN
+F 3 "" H 3500 3550 50  0000 C CNN
+	1    3500 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW11
+U 1 1 5825D79B
+P 7600 3800
+F 0 "SW11" H 7400 3950 50  0000 C CNN
+F 1 "SWITCH_INV" H 7450 3650 50  0000 C CNN
+F 2 "Footprints:switch" H 7600 3800 50  0001 C CNN
+F 3 "" H 7600 3800 50  0000 C CNN
+	1    7600 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D11
+U 1 1 586D55ED
+P 5100 2850
+F 0 "D11" H 5100 2950 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 5100 2750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 5100 2850 50  0001 C CNN
+F 3 "" H 5100 2850 50  0000 C CNN
+	1    5100 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D9
+U 1 1 586D5B5D
+P 4800 2850
+F 0 "D9" H 4800 2950 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 4800 2750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 4800 2850 50  0001 C CNN
+F 3 "" H 4800 2850 50  0000 C CNN
+	1    4800 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D7
+U 1 1 586D5B98
+P 4500 2850
+F 0 "D7" H 4500 2950 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 4500 2750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 4500 2850 50  0001 C CNN
+F 3 "" H 4500 2850 50  0000 C CNN
+	1    4500 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D5
+U 1 1 586D5BD4
+P 4200 2850
+F 0 "D5" H 4200 2950 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 4200 2750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 4200 2850 50  0001 C CNN
+F 3 "" H 4200 2850 50  0000 C CNN
+	1    4200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D3
+U 1 1 586D5C11
+P 3900 2850
+F 0 "D3" H 3900 2950 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 3900 2750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 3900 2850 50  0001 C CNN
+F 3 "" H 3900 2850 50  0000 C CNN
+	1    3900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D4
+U 1 1 586D5D70
+P 3900 4250
+F 0 "D4" H 3900 4350 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 3900 4150 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 3900 4250 50  0001 C CNN
+F 3 "" H 3900 4250 50  0000 C CNN
+	1    3900 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L D D6
+U 1 1 586D5D76
+P 4200 4250
+F 0 "D6" H 4200 4350 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 4200 4150 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 4200 4250 50  0001 C CNN
+F 3 "" H 4200 4250 50  0000 C CNN
+	1    4200 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L D D8
+U 1 1 586D5D7C
+P 4500 4250
+F 0 "D8" H 4500 4350 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 4500 4150 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 4500 4250 50  0001 C CNN
+F 3 "" H 4500 4250 50  0000 C CNN
+	1    4500 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L D D10
+U 1 1 586D5D82
+P 4800 4250
+F 0 "D10" H 4800 4350 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 4800 4150 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 4800 4250 50  0001 C CNN
+F 3 "" H 4800 4250 50  0000 C CNN
+	1    4800 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L D D12
+U 1 1 586D5D88
+P 5100 4250
+F 0 "D12" H 5100 4350 50  0000 C CNN
+F 1 "PESD5V0U1UL" H 5100 4150 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-523" H 5100 4250 50  0001 C CNN
+F 3 "" H 5100 4250 50  0000 C CNN
+	1    5100 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3100 5250 1800
+Wire Wire Line
+	3700 3200 5400 3200
+Wire Wire Line
+	5400 3200 5400 2200
+Wire Wire Line
+	3700 3300 5550 3300
+Wire Wire Line
+	5550 3300 5550 2550
+Wire Wire Line
+	3700 3400 5700 3400
+Wire Wire Line
+	5700 3400 5700 2950
+Wire Wire Line
+	3700 3500 5850 3500
+Wire Wire Line
+	5850 3500 5850 3300
+Wire Wire Line
+	5250 4000 5250 5200
+Wire Wire Line
+	3700 3900 5400 3900
+Wire Wire Line
+	5400 3900 5400 4800
+Wire Wire Line
+	3700 3800 5550 3800
+Wire Wire Line
+	5550 3800 5550 4450
+Wire Wire Line
+	3700 3700 5700 3700
+Wire Wire Line
+	5700 3700 5700 4050
+Wire Wire Line
+	5850 3600 5850 3700
+Wire Wire Line
+	3700 3600 5850 3600
+Wire Wire Line
+	5250 1800 6600 1800
+Wire Wire Line
+	5400 2200 7100 2200
+Wire Wire Line
+	5550 2550 6600 2550
+Wire Wire Line
+	5700 2950 7100 2950
+Wire Wire Line
+	5850 3300 6600 3300
+Wire Wire Line
+	5700 4050 6600 4050
+Wire Wire Line
+	5550 4450 7100 4450
+Wire Wire Line
+	5400 4800 6600 4800
+Wire Wire Line
+	5250 5200 7100 5200
+Wire Wire Line
+	5850 3700 7100 3700
+Wire Wire Line
+	5100 3000 5100 3100
+Wire Wire Line
+	3700 3100 5250 3100
+Wire Wire Line
+	4800 3200 4800 3000
+Wire Wire Line
+	4500 3300 4500 3000
+Wire Wire Line
+	4200 3400 4200 3000
+Wire Wire Line
+	3900 3500 3900 3000
+Connection ~ 3900 3500
+Connection ~ 4200 3400
+Connection ~ 4500 3300
+Connection ~ 4800 3200
+Connection ~ 5100 3100
+Wire Wire Line
+	3700 4000 5250 4000
+Wire Wire Line
+	5100 4000 5100 4100
+Wire Wire Line
+	4800 3900 4800 4100
+Wire Wire Line
+	4500 3800 4500 4100
+Wire Wire Line
+	4200 3700 4200 4100
+Connection ~ 5100 4000
+Connection ~ 4800 3900
+Connection ~ 4500 3800
+Connection ~ 4200 3700
+Wire Wire Line
+	3900 4100 3900 3600
+Connection ~ 3900 3600
+Text GLabel 3900 2700 1    60   Input ~ 0
+AGND
+Text GLabel 4200 2700 1    60   Input ~ 0
+AGND
+Text GLabel 4500 2700 1    60   Input ~ 0
+AGND
+Text GLabel 4800 2700 1    60   Input ~ 0
+AGND
+Text GLabel 5100 2700 1    60   Input ~ 0
+AGND
+Text GLabel 5100 4400 3    60   Input ~ 0
+AGND
+Text GLabel 4800 4400 3    60   Input ~ 0
+AGND
+Text GLabel 4500 4400 3    60   Input ~ 0
+AGND
+Text GLabel 4200 4400 3    60   Input ~ 0
+AGND
+Text GLabel 3900 4400 3    60   Input ~ 0
+AGND
+$EndSCHEMATC
